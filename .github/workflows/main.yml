@@ -1,0 +1,12 @@
+name: Always Succeed on Push
+
+on:
+  push:
+    branches: [GCD-6-issue-b]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Always Succeed
+        run: echo "Success!"
