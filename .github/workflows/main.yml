@@ -2,7 +2,7 @@ name: Always Fail on Push
 
 on:
   push:
-    branches: [GCD-issue-d]
+    branches: [GCD-8-issue-d]
 
 jobs:
   build:
